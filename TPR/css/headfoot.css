@@ -1,4 +1,70 @@
 @charset 'UTF-8';
+/*header*/
+.header_link{
+  line-height: 30px;
+}
+.header_link .link a{
+  color: #5d5d5d;
+}
+.header_link .link a:hover{
+  text-decoration: underline;
+}
+.header_logo{
+  background: url('../images/h_logo_03.jpg') no-repeat;
+  height:108px;
+}
+.header_logo a{
+  text-indent:-9999px;
+  float: left;
+  width:310px;
+  height:108px;
+  margin-right: 400px;
+}
+.header_logo h1{
+  font-size: 30px;
+  color:#fff;
+  float: left;
+  margin-right: 5px;
+  line-height: 108px;
+}
+.header_logo .h1{
+  font-weight: 900;
+  padding:5px 10px;
+  background: #63a1ac;
+  line-height: 31px;
+  margin-top:35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 .footer_bg{
   background-color: #47a7ba;

@@ -11,44 +11,59 @@
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
-
-
-
-
-
- <div class="footer_bg">
-    <div class="c mt20 cb mb40">
-      <img class="footer_logo lf" src="images/flogo_03.jpg" alt="">
-      <div class="connect lf">
-        <p class="f14 cfff">地    址：北京市朝阳区安定路33号化信大厦B座7层（邮编：100029）</p>
-        <ul class="cb">
-          <li>联系电话：10-6444 1885</li>
-          <li>传    真：10-6441 119</li>
-          <li>公共邮箱：yyangyh@ciesc.cn</li>
-          <li>网    址：www.ciesc. cn
-          </li>
+<div class="cw">
+  <div class="header c">
+    
+  </div>
+  <div class="c cb mt20">
+    <div class="tab_block lf">
+      <h2>论文评审</h2>
+      <ul class="pb20 b1">
+        <li><a href="#">待评审（<span style="color: #ff0000">16</span>）</a></li>
+        <li><a href="#">已评审</a></li>
+        <li><a href="#">已失效</a></li>
+      </ul>
+      <h2>分会管理</h2>
+      <ul class="pb20 b2">
+        <li><a href="#">未送审（<span style="color: #ff0000">16</span>）</a></li>
+        <li><a href="#">已送审</a></li>
+        <li><a href="#">已审结</a></li>
+      </ul>
+      <h2>我的信息</h2>
+      <ul class="pb20 b3">
+        <li><a href="#">修改我的资料</a></li>
+        <li><a href="#">退出登录</a></li>
+      </ul>
+    </div>
+    <div class="fhlist lf right bg_fff">
+      <h2 class="title">分会管理中心</h2>
+      <div class="fhlist_b1">
+        <h2 class="title2">请选择会议和分会</h2>
+        <ul>
+          <li><a href="#">2015中国化工学会第1分会场——化学工程分会场</a></li>
+          <li><a href="#">2015中国化工学会第2分会场——石油化工催化剂研讨会（不含聚烯烃催化剂）</a></li>
+          <li><a href="#">2015中国化工学会第8分会场——化工过程安全技术分会场</a></li>
         </ul>
       </div>
-      <div class="2code lf">
-        <img src="images/index_50.gif" alt="">
-        <p class="textCenter f12 cfff">关注官方微信</p>
-      </div>
     </div>
-    <div class="f12 textCenter cfff" style="border-top:1px solid #fff;height:32px;line-height: 32px;">
-      版权所有：中国化工学会 &nbsp;京ICP备14005076号-1    &nbsp;&nbsp;您是第<span class="f16" style="color:#ffcc00;"> 123456 </span>位访客
-    </div>
+  </div>
+ <div class="footer_bg">
+    
  </div>
-
-
-
+</div>
 
   <script src="js/jquery-1.11.1.min.js"></script> 
-  <!-- <script>
+  <script>
   	$(document).ready(function(){
-    $('.top').load('header.html');
-    $('.bottom').load('footer.html');
+    $('.header').load('header.html');
+    $('.footer_bg').load('footer.html');
 });
-  </script>  -->
+    $('.b1 li a').last().css('border-bottom','0');
+    $('.b2 li a').last().css('border-bottom','0');
+    $('.b3 li a').last().css('border-bottom','0');
+    $('.fhlist_b1 ul li a:odd').addClass('bg_fa');
+
+  </script>
+
 </body>
 </html>
