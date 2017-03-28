@@ -1,7 +1,24 @@
 @charset 'UTF-8';
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2017-03-27 20:32:20
- * @version $Id$
- */
+/*footer*/
+.footer_bg{
+  background-color: #47a7ba;
+  padding-top:40px;
+}
+.footer_logo{
+  display: inline-block;
+  margin-top:20px;
+  margin-right: 50px;
+}
+.footer_bg .connect ul{
+  width:480px;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+.footer_bg .connect ul li{
+  width:240px;
+  margin-top:15px;
+  float:left;
+  font-size:14px;
+  color:#fff;
+}
