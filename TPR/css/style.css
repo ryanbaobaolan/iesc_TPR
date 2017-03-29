@@ -44,6 +44,9 @@ img{border:0;}
 .right{
 	width:942px;
 }
+.right .wp{
+	padding:0 25px;
+}
 .title{
 	 font-size: 24px;
 	 line-height: 50px;
@@ -58,6 +61,7 @@ img{border:0;}
 	 color: #fff;
 	 text-align: center;
 }
+/*分会列表*/
 .fhlist_b1{
 	padding:90px 90px 180px;
 }
@@ -75,4 +79,144 @@ img{border:0;}
 }
 .fhlist_b1 ul li a:hover{
 	background: #c9e7f3!important;
+}
+/*评审小组*/
+.board{
+	width:894px;
+	height: 75px;
+	background: #ffffd7;
+	color: #ff6317;
+	margin:35px auto 0 auto;
+	text-align: center;
+	border:1px solid #ffe3c7;
+	border-radius: 2px;
+}
+.board h5{
+	margin: 10px;
+}
+.board h3{
+	font-size: 18px;
+	margin: 0 10px;
+}
+.psgroup table,.pswait table{
+	width:100%;
+	border-collapse:collapse;
+	border:none;
+}
+.psgroup table td{
+	border:1px solid #efefef;
+	height: 40px;
+	line-height: 25px;
+}
+.psgroup .table .td1{
+	width:140px;
+	text-align: center;
+	font-size: 18px;
+}
+.psgroup .table1 .td1{
+	background: #f5f5f5;
+}
+.psgroup .table .td2{
+	padding:0 30px;	
+}
+.psgroup .table1 .td2{
+	background: #fafafa;
+}
+.psgroup .table1 .td2 a{
+	position: relative;
+	display: block;
+	line-height: 40px;
+}
+.psgroup .table1 .download{
+	position: absolute;
+	background: url('../images/1_07.gif') no-repeat;
+	width:59px;
+	height:20px;
+	top:12px;
+	left:250px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+}
+.psgroup .content2{
+	border:1px solid #ebebeb;
+	background: #fafafa;
+	padding:35px 25px 50px;
+}
+.psgroup .content2 .person{
+	line-height: 26px;
+	font-size: 18px;
+	color: #449cda;
+	background: url('../images/1_11.gif') no-repeat left;
+	text-indent: 35px;
+}
+.psgroup .content2 .person span{
+	color: #2d9514;
+	font-size: 14px;
+}
+.psgroup .content2 .delete{
+	background: url('../images/1_15.gif') no-repeat left;
+	width:100%;
+	height:100%;
+	color: #fff;
+	line-height: 40px;
+	text-indent: 8px;
+	display: block;
+}
+.psgroup .content2 .remind{
+	background: url('../images/1_18.gif') no-repeat;
+	width:72px;
+	height:24px;
+	top:12px;
+	left:25px;
+	color: #fff;
+	text-align: center;
+	line-height: 23px;
+}
+.psgroup .content2 .delete2{
+	background: url('../images/1_15.gif') no-repeat left;
+	width:72px;
+	height:24px;
+	color: #fff;
+	line-height: 23px;
+	text-align: center;
+	top:12px;
+	left:105px;
+}
+.psgroup .content2 .add{
+	display: block;
+	width:192px;
+	line-height: 47px;
+	background: url('../images/1_21.gif') no-repeat;
+	text-align: center;
+}
+.psgroup .content2 .p1{
+	line-height: 50px;
+	border-bottom: 2px solid #fff;
+	background: #abd3ef;
+}
+.psgroup .content2 .order input{
+	margin-right: 15px;
+}
+.psgroup .content2 .order div{
+	width: 33.175%;
+	line-height: 50px;
+	text-align: center;
+	border-right: 2px solid #fff;
+	background: #cce4f6;
+}
+.psgroup .content2 .submit{
+	height: 90px;
+	background: #cce4f6;
+	border-top: 2px solid #fff;
+}
+.psgroup .content2 .submit a{
+	display: block;
+	background: url('../images/1_25.gif') no-repeat center;
+	width: 100%;
+	height: 100%;
+}
+/*等待评审*/
+.pswait table thead{
+	background: #dcf4f9;
 }

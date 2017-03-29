@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>分会选择</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/general.css" rel="stylesheet">
+<link href="css/headfoot.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="cw">
+  <div class="header c">
+    
+  </div>
+
+
+
+  <div class="c cb mt20">
+    <div class="tab_block lf">
+      <h2>论文评审</h2>
+      <ul class="pb20 b1">
+        <li><a href="#">待评审（<span style="color: #ff0000">16</span>）</a></li>
+        <li><a href="#">已评审</a></li>
+        <li><a href="#">已失效</a></li>
+      </ul>
+      <h2>分会管理</h2>
+      <ul class="pb20 b2">
+        <li><a href="#">未送审（<span style="color: #ff0000">16</span>）</a></li>
+        <li><a href="#">已送审</a></li>
+        <li><a href="#">已审结</a></li>
+      </ul>
+      <h2>我的信息</h2>
+      <ul class="pb20 b3">
+        <li><a href="#">修改我的资料</a></li>
+        <li><a href="#">退出登录</a></li>
+      </ul>
+    </div>
+    <div class="pswait lf right bg_fff">
+      <h2 class="title">等待评审的论文</h2>
+      <div class="wp">
+        <div class="board">
+          <h5 class="textLeft f18">尊敬的评委：</h5>
+          <h3 class="textLeft f14 pl">当前共有<span class="cmain">16</span>篇论文未评审，请您在截止日期前对下面的论文进行评审，对您的辛苦付出，我们表示最真诚的感谢和最崇高的敬意！</h3>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+ <div class="footer_bg">
+    
+ </div>
+</div>
+
+  <script src="js/jquery-1.11.1.min.js"></script> 
+  <script>
+  // 加载页头页尾
+  	$(document).ready(function(){
+    $('.header').load('header.html');
+    $('.footer_bg').load('footer.html');
+});
+    // tab_block
+    $('.b1 li a').last().css('border-bottom','0');
+    $('.b2 li a').last().css('border-bottom','0');
+    $('.b3 li a').last().css('border-bottom','0');
+      </script>
+
+</body>
+</html>
