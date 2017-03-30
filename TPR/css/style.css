@@ -333,7 +333,6 @@ img{border:0;}
 	_border-top-style:hidden;
 	_border-right-style:hidden;
 	_border-left-style:hidden;
-	/*border:0;*/
 }
 .function .block1 .ftable thead tr td{
 	font-size: 18px;
@@ -377,7 +376,7 @@ img{border:0;}
 .function .block1 .suggest .s_p1 .s1{
 	font-size: 14px;
 	color: #35b34a;
-	padding:0 30px 0 60px;
+	padding:0 160px 0 10px;
 }
 .function .block1 .suggest .s_p1 .s3{
 	color: #f4825f;
@@ -385,5 +384,27 @@ img{border:0;}
 }
 .function .block1 .suggest .s_p1 .s2{
 	font-size: 14px;
+}
+.function .block1 .suggest textarea{
+	display: block;
+	width: 95%;
+	margin:5px auto;
+	padding:10px 20px;
+	height:90px;
+	outline: 0;
+	font:14px Microsoft YaHei
+	;
+}
+.function .block1 .suggest .submit{
+	background: url('../images/4_07.gif') no-repeat center;
+	height:55px;
+	width: 272px;
+	margin:0 auto;
+	line-height: 55px;
+	text-align: center;
+	display: block;
+	color:#fff;
+	font-size: 18px;
+
 }
 

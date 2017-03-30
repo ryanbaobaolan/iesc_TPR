@@ -35,7 +35,7 @@
 .show2{display:inline-block;}
 
 .cmain{
-  color:#105fac;
+  color:#5c91be;
 }
 .cwarn{color: #f87e59;}
 .cfff{
@@ -58,6 +58,7 @@
 .bg_fff{background: #fff;}
 .re{position: relative;}
 .ab{position: absolute;}
+.aline{text-decoration: underline;}
 .mt20{margin-top: 20px !important;}
 .mt35{margin-top: 35px !important}
 .mb40{margin-bottom: 40px !important;}
