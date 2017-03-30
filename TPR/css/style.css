@@ -8,7 +8,7 @@ body{
 	margin:0;padding:0;
   	font-family:Microsoft YaHei;
   	min-width:1200px;
-  	background: #f0f0f0;
+  	background: #fff;
 }
 img{border:0;} 
 
@@ -30,22 +30,25 @@ img{border:0;}
 	list-style: none;
 	background: #f4ffff;
 }
-.tab_block ul li a{
-	display: block;
-	
-	font-size: 18px;
-	text-indent: 25px;
+.tab_block ul li{
 	line-height: 40px;
 	border-bottom: 1px dashed #b2e9f4;
+}
+.tab_block ul li a{
+	display: block;
+	font-size: 18px;
+	text-indent: 25px;
 }
 .tab_block ul li a:hover{
 	color: #f8b900;
 }
 .right{
 	width:942px;
+	margin-bottom: 40px;
+	background: #fff;
 }
 .right .wp{
-	padding:0 25px;
+	padding:0 25px 35px 25px;
 }
 .title{
 	 font-size: 24px;
@@ -71,9 +74,12 @@ img{border:0;}
 	list-style: none;
 	border:1px solid #5dc1c6;
 }
+.fhlist_b1 ul li{
+	line-height:80px;
+	height: 80px;
+}
 .fhlist_b1 ul li a{
 	display: block;
-	line-height: 80px;
 	font-size: 18px;
 	text-indent: 30px;
 }
@@ -82,7 +88,6 @@ img{border:0;}
 }
 /*评审小组*/
 .board{
-	width:894px;
 	height: 75px;
 	background: #ffffd7;
 	color: #ff6317;
@@ -103,7 +108,12 @@ img{border:0;}
 	border-collapse:collapse;
 	border:none;
 }
-.psgroup table td{
+/*.psgroup table td{
+	border:1px solid #efefef;
+	height: 40px;
+	line-height: 25px;
+}*/
+.psgroup .table td{
 	border:1px solid #efefef;
 	height: 40px;
 	line-height: 25px;
@@ -115,6 +125,9 @@ img{border:0;}
 }
 .psgroup .table1 .td1{
 	background: #f5f5f5;
+	width:140px;
+	text-align: center;
+	font-size: 18px;
 }
 .psgroup .table .td2{
 	padding:0 30px;	
@@ -128,15 +141,14 @@ img{border:0;}
 	line-height: 40px;
 }
 .psgroup .table1 .download{
-	position: absolute;
+	display: inline-block;
 	background: url('../images/1_07.gif') no-repeat;
 	width:59px;
 	height:20px;
-	top:12px;
-	left:250px;
 	color: #fff;
 	text-align: center;
 	line-height: 20px;
+	cursor: pointer;
 }
 .psgroup .content2{
 	border:1px solid #ebebeb;
@@ -200,7 +212,10 @@ img{border:0;}
 }
 .psgroup .content2 .order div{
 	width: 33.175%;
-	line-height: 50px;
+	_width:33%;
+	line-height:50px;
+	_height:30px;
+	_padding-top:15px;
 	text-align: center;
 	border-right: 2px solid #fff;
 	background: #cce4f6;
@@ -212,11 +227,163 @@ img{border:0;}
 }
 .psgroup .content2 .submit a{
 	display: block;
+	_padding-top:10px;
+	padding-top:5px;
 	background: url('../images/1_25.gif') no-repeat center;
 	width: 100%;
 	height: 100%;
 }
 /*等待评审*/
-.pswait table thead{
-	background: #dcf4f9;
+.pswait table thead tr td{
+	background:#dcf4f9;
+	font-size: 18px;
 }
+.pswait table td{
+	border:1px solid #ddd;
+	height: 40px;
+	line-height: 25px;
+}
+.pswait table .td1{
+	width:349px;
+	padding:0 15px;
+}
+.pswait table .td1 p{
+	width:349px;
+	overflow: hidden;
+  	word-break:break-all;
+  	text-overflow:ellipsis;
+  	white-space:nowrap;
+}
+.pswait table .td2{
+	width:269px;
+}
+.pswait table .td3{
+	width:155px;
+}
+.pswait table .td4{
+	width:89px;
+}
+.pswait table .td4 a{
+	display: block;
+}
+.pagenumber{
+	width:490px;
+	margin:50px auto;
+}
+.pagenumber .pre,.pagenumber .next{
+	display: inline-block;
+	padding:5px 10px;
+	background:#ddd;
+	border:1px solid #d3d3d3;
+	font-size: 14px;
+	color:#303030;
+	border-radius: 3px;
+	margin-right:10px;
+}
+
+.pagenumber .pre:hover,.pagenumber .next:hover{
+	color:#fff;
+}
+.pagenumber ul{
+	list-style: none;
+	margin:0;padding:0;
+}
+.pagenumber ul li{
+	float:left;
+}
+.pagenumber ul li a{
+	display: inline-block;
+	padding:5px 10px;
+	color:#303030;
+	font-weight: 900;
+	border:1px solid #d3d3d3;
+	border-radius: 3px;
+	margin-right:7px;
+	font-size: 14px;
+}
+.pagenumber ul li a:hover{
+	background:#5997d0;
+}
+.pagenumber ul li .on{
+	background:#5997d0;
+	color:#fff;
+}
+
+/*评审操作*/
+.function .block1{
+	border:1px solid #ebebeb;
+	background: #fafafa;
+	text-align: center;
+}
+.function .block1 .h2{
+	color: #c05114;
+	font-size: 24px;
+	line-height: 50px;
+}
+.function .block1 .p1{
+	color: #39aa5b;
+	padding-bottom: 15px;
+	border-bottom:1px solid #ebebeb;
+}
+.function .block1 .ftable td{
+	border-bottom:1px dashed #dedede!important;
+	height: 40px;
+	line-height: 25px;
+	_border:1px dashed #dedede!important;
+	_border-top-style:hidden;
+	_border-right-style:hidden;
+	_border-left-style:hidden;
+	/*border:0;*/
+}
+.function .block1 .ftable thead tr td{
+	font-size: 18px;
+
+}
+.function .block1 .ftable .ge1{
+	width:568px;
+	text-align: left;
+}
+.function .block1 .ftable .ge2{
+	width:130px;
+	text-align: center;
+}
+.function .block1 .ftable .ge3{
+	width:130px;
+	text-align: center;
+}
+.function .block1 .ftable .ge3 input{
+	width:30px;
+	height: 24px;
+	_line-height:24px;
+	border:1px solid #ebebeb;
+	color:#004ef4;
+	margin-right: 5px;
+	text-align: center;
+}
+.function .block1 .h3{
+	color: #5c91be;
+	font-size: 24px;
+	line-height: 60px;
+	height: 60px;
+}
+.function .block1 .h3 span{
+	font-size: 48px;
+	color: #f4825f;
+}
+.function .block1 .suggest .s_p1{
+	font-size: 18px;
+	text-align: left;
+}
+.function .block1 .suggest .s_p1 .s1{
+	font-size: 14px;
+	color: #35b34a;
+	padding:0 30px 0 60px;
+}
+.function .block1 .suggest .s_p1 .s3{
+	color: #f4825f;
+	font-size: 14px;
+}
+.function .block1 .suggest .s_p1 .s2{
+	font-size: 14px;
+}
+

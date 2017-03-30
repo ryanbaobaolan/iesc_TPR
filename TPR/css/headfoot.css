@@ -10,15 +10,15 @@
   text-decoration: underline;
 }
 .header_logo{
-  background: url('../images/h_logo_03.jpg') no-repeat;
+  background: url('../images/hlogo_02.jpg') no-repeat;
   height:108px;
 }
 .header_logo a{
   text-indent:-9999px;
   float: left;
-  width:310px;
+  width:380px;
   height:108px;
-  margin-right: 400px;
+  margin-right: 350px;
 }
 .header_logo h1{
   font-size: 30px;
