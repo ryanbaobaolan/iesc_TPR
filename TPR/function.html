@@ -11,7 +11,7 @@
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="cw">
+<div class="cw cb">
   <div class="header">
     
   </div>
@@ -120,9 +120,9 @@
        			<h3 class="h3">该论文评审得分为：&nbsp;&nbsp;<span>90</span>&nbsp;&nbsp;分</h3>
 	       		<div class="mt35 suggest">
 	       			<p class="s_p1">请填写您对该论文的意见<span class="s1">*您填写的宝贵意见将通过系统反馈给作者</span><span class="s2">最多可填写500个字,剩余</span><span class="s3"></span><span class="s2">字</span></p>
-              <textarea  id="number" cols="30" rows="10" onkeydown="words_count()" onfocus="words_count();" onblur="words_count();"></textarea>
+              <textarea  id="number" cols="30" rows="10" onkeydown="words_count()" onkeyup="words_count()" onfocus="words_count();" onblur="words_count();"></textarea>
               <h5 class="cwarn textLeft">温馨提示：论文是否录用由大会情况综合判定，请勿在意见中明示或暗示！</h5>
-              <h5 class="cwarn textLeft">评审指南： <a href="#" class="cmain aline">2017中国化工学会年会论文评审指南.doc</a></h5>
+              <h5 class="cwarn textLeft">评审指南： <a href="#" class="cmain aline2">2017中国化工学会年会论文评审指南.doc</a></h5>
               <a href="#" class="submit mt35 mb40">
               提交评审结果及意见</a>
 	       		</div>
@@ -143,32 +143,14 @@
 </div>
 
   <script src="js/jquery-1.11.1.min.js"></script> 
-
+	<script src="js/ryanjs.js"></script> 
   <script>
- function words_count()
-        {
-            var curLength=$("#number").val().length;
-            if(curLength>500)
-            {
-                var num=$("#number").val().substr(0,500);
-                $("#number").val(num);
-                alert("超过字数限制，多出的字将被删除哦" );
-            }
-            else
-            {
-                $(".s3").text(500-$("#number").val().length);
-            }
-        }
   // 加载页头页尾
   	$(document).ready(function(){
     $('.header').load('header.html');
     $('.footer_bg').load('footer.html');
+    $('#number').focus();
 });
-    // tab_block
-    $('.b1 li').last().css('border-bottom','0');
-    $('.b2 li').last().css('border-bottom','0');
-    $('.b3 li').last().css('border-bottom','0');
-    $('.order div').last().css('border-right','0');
   </script>
 
 </body>
