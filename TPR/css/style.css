@@ -439,6 +439,7 @@ img{border:0;}
 	font-size: 14px;
 	position: absolute;
 	right:0;
+	_right:25px;
 	top:2px;
 }
 .send .block2 .h4{
@@ -463,8 +464,11 @@ img{border:0;}
 	height:30px;
 	border:1px solid #ddd;
 	margin:0 10px;
+	_margin:10px;
 	padding-left:10px;
 	outline: 0;
+	_vertical-align:middle;
+	line-height: 30px;
 }
 .send .block2 .search a{
 	display: inline-block;
@@ -533,6 +537,8 @@ img{border:0;}
 	padding-left:10px;
 	outline: 0;
 	color: #999;
+	line-height: 30px;
+
 }
 .send .block3 a{
 	width: 112px;
@@ -552,12 +558,70 @@ img{border:0;}
 	text-indent: 30px;
 	font-size: 14px;
 }
-.send .block3 .error{
+ .error{
 	background: url('../images/error.gif') no-repeat left center;
-	color: #d34747;
+	color: #d34747!important;
 }
-.send .block3 .correct{
+.correct{
 	background: url('../images/correct.gif') no-repeat left center;
-	color:#36ab60;
+	color:#36ab60!important;
 }
+/*登录页*/
+.login_bg{
+	padding-top:100px;
+	height:488px;
+	margin:0 auto 40px; 
 
+}
+.login_c{
+	margin:0 auto;
+	width:723px;
+	border:1px solid #c2eef6;
+	background: #e7f9fc;
+}
+.login_c .form{
+	height:75px;
+	position: relative;
+}
+.login_c .form p{
+	margin-left:60px;
+	color:#333;
+	height:40px;
+	line-height: 40px;
+	margin-bottom: 5px;
+}
+.login_c .form .p1{
+	text-indent: 30px;
+	width:100px;
+	line-height:20px;
+	height:20px;
+	position: absolute;
+	left:67px;
+	_left:97px;
+}
+.login_c .form p input{
+	margin-left:10px;
+	border:1px solid #85e1f3;
+	height:30px;
+	width: 235px;
+	line-height: 30px;
+	padding-left:10px;
+	outline: 0;
+	_vertical-align:middle;
+}
+.login_b {
+	line-height: 40px;
+}
+.login_b .btn{
+	background: url('../images/5_06.gif') no-repeat;
+	width:128px;
+	line-height:40px;
+	color: #fff;
+	text-align: center;
+	margin-left: 127px;
+	_margin-left:155px;
+}
+.login_b .find{
+	color: #5c91be;
+	margin-left: 25px;
+}

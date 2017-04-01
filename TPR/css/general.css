@@ -33,11 +33,12 @@
     display:block;
 }
 .show2{display:inline-block;}
-
+.line35{line-height: 35px;}
 .cmain{
   color:#5c91be;
 }
 .cwarn{color: #f87e59;}
+.csafe{}
 .cfff{
 	color: #fff;
 }
@@ -60,6 +61,7 @@
 .ab{position: absolute;}
 .aline:hover{text-decoration: underline;}
 .aline2{text-decoration: underline;}
+.mt10{margin-top: 10px !important;}
 .mt20{margin-top: 20px !important;}
 .mt35{margin-top: 35px !important}
 .mb40{margin-bottom: 40px !important;}
@@ -67,6 +69,7 @@
 .mb15{margin-bottom: 15px !important;}
 .pb20{padding-bottom: 20px !important;}
 .pt30{padding-top:30px!important;}
+.pt40{padding-top:40px!important;}
 .pt15{padding-top:15px!important;}
 .pr30{padding-right: 30px!important;}
 .pl30{padding-left: 30px!important;}
