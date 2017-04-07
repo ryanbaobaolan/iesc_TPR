@@ -32,12 +32,15 @@ img{border:0;}
 }
 .tab_block ul li{
 	line-height: 40px;
+	height: 40px;
 	border-bottom: 1px dashed #b2e9f4;
 }
 .tab_block ul li a{
-	display: block;
+	display:inline-block;
 	font-size: 18px;
 	text-indent: 25px;
+	width:240px;
+	_width:215px;
 }
 .tab_block ul li a:hover{
 	color: #f8b900;
@@ -80,9 +83,10 @@ img{border:0;}
 	height: 80px;
 }
 .fhlist_b1 ul li a{
-	display: block;
+	display:inline-block;
 	font-size: 18px;
-	text-indent: 30px;
+	padding-left: 30px;
+	width:730px;
 }
 .fhlist_b1 ul li a:hover{
 	background: #c9e7f3!important;
@@ -204,7 +208,8 @@ img{border:0;}
 	background: #abd3ef;
 }
 .psgroup .content2 .order input{
-	margin-right: 15px;
+	/*margin-right: 15px;*/
+	visibility: hidden;
 }
 .psgroup .content2 .order div{
 	width: 33.175%;
@@ -215,6 +220,22 @@ img{border:0;}
 	text-align: center;
 	border-right: 2px solid #fff;
 	background: #cce4f6;
+	cursor: pointer;
+	cursor: hand;
+	position: relative;
+}
+.psgroup .content2 .order div span{
+	width:10px;
+	height:10px;
+	position: absolute;
+	background: url(../images/check.gif) 0 0;
+	top:20px;
+	left:104px;
+	font-size:0;
+}
+
+.psgroup .content2 .order div .checked{
+	background-position:0 10px;
 }
 .psgroup .content2 .submit{
 	height: 90px;
@@ -384,13 +405,12 @@ img{border:0;}
 }
 .function .block1 .suggest textarea{
 	display: block;
-	width: 95%;
+	width: 788px;
 	margin:5px auto;
 	padding:10px 20px;
 	height:90px;
 	outline: 0;
-	font:14px Microsoft YaHei
-	;
+	font:14px Microsoft YaHei;
 }
 .function .block1 .suggest .submit{
 	background: url('../images/4_07.gif') no-repeat center;
@@ -585,10 +605,16 @@ img{border:0;}
 }
 .login_c .form p{
 	margin-left:60px;
+	_margin-left:10px;
 	color:#333;
 	height:40px;
 	line-height: 40px;
 	margin-bottom: 5px;
+}
+.login_c .form .s1{
+	display: inline-block;
+	width:57px;
+	text-align: right;
 }
 .login_c .form .p1{
 	text-indent: 30px;
@@ -596,8 +622,8 @@ img{border:0;}
 	line-height:20px;
 	height:20px;
 	position: absolute;
-	left:67px;
-	_left:97px;
+	left:72px;
+	_left:122px;
 }
 .login_c .form p input{
 	margin-left:10px;
