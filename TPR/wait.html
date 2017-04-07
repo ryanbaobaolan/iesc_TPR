@@ -116,9 +116,9 @@
           <a href="#" class="add f18 cfff mb40">添加外审专家</a>
           <p class="f24 cfff p1 textCenter">终审操作</p>
           <div class="cb order">
-            <div class="lf"><input type="radio" name="order">接&nbsp;&nbsp;受</div>
-            <div class="lf"><input type="radio" name="order">拒&nbsp;&nbsp;绝</div>
-            <div class="lf"><input type="radio" name="order">返&nbsp;&nbsp;诊</div>
+            <div class="lf"><span ></span><input type="radio" name="order">接&nbsp;&nbsp;受</div>
+            <div class="lf"><span ></span><input type="radio" name="order">拒&nbsp;&nbsp;绝</div>
+            <div class="lf"><span ></span><input type="radio" name="order">返&nbsp;&nbsp;诊</div>
           </div>
           <div>
           <div class="submit pb20">
@@ -149,6 +149,10 @@
     $('.header').load('header.html');
     $('.footer_bg').load('footer.html');
 });
+    $('.order div').click(function(event) {
+      $(this).children('input').attr('checked', 'checked').siblings().addClass('checked')
+      $(this).siblings().children('input').removeAttr('checked').siblings().removeClass('checked');
+    });
   </script>
 
 </body>
