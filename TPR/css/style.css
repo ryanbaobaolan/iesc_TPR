@@ -17,7 +17,7 @@ img{border:0;}
 	width:240px;
 	margin-right: 20px;
 }
-.tab_block h2{
+.tab_block .h2{
 	font-size: 24px;
 	color: #fff;
 	background: #8bd4e2;
@@ -72,23 +72,23 @@ img{border:0;}
 .fhlist_b1{
 	padding:90px 90px 180px;
 }
-.fhlist_b1 ul{
+.fhlist_b1 .ul1{
 	margin:0;
 	padding: 0;
 	list-style: none;
 	border:1px solid #5dc1c6;
 }
-.fhlist_b1 ul li{
+.fhlist_b1 .ul1 li{
 	line-height:80px;
 	height: 80px;
 }
-.fhlist_b1 ul li a{
+.fhlist_b1 .ul1 li a{
 	display:inline-block;
 	font-size: 18px;
 	padding-left: 30px;
 	width:730px;
 }
-.fhlist_b1 ul li a:hover{
+.fhlist_b1 .ul1 li a:hover{
 	background: #c9e7f3!important;
 }
 /*评审小组*/
@@ -101,14 +101,14 @@ img{border:0;}
 	border:1px solid #ffe3c7;
 	border-radius: 2px;
 }
-.board h5{
+.board .h5{
 	margin: 10px;
 }
-.board h3{
+.board .h3{
 	font-size: 18px;
 	margin: 0 10px;
 }
-.psgroup table,.pswait table,.send table{
+.table0{
 	width:100%;
 	border-collapse:collapse;
 	border:none;
@@ -181,7 +181,7 @@ img{border:0;}
 	display: block;
 	margin-right: 15px;
 }
- .btn-lg-blue{
+.btn-lg-blue{
 	display: block;
 	width:192px;
 	line-height: 47px;
@@ -198,8 +198,7 @@ img{border:0;}
 	visibility: hidden;
 }
 .psgroup .content2 .order .wrap{
-	width: 33.175%;
-	_width:33%;
+	width: 33.16%;
 	line-height:50px;
 	_height:30px;
 	_padding-top:15px;
@@ -240,36 +239,36 @@ img{border:0;}
 	line-height: 35px;
 }
 /*等待评审*/
-.pswait table thead tr td{
+.pswait .table thead tr td{
 	background:#dcf4f9;
 	font-size: 18px;
 }
-.pswait table td{
+.pswait .table td{
 	border:1px solid #ddd;
 	height: 40px;
 	line-height: 25px;
 }
-.pswait table .td1{
+.pswait .table .td1{
 	width:349px;
 	padding:0 15px;
 }
-.pswait table .td1 p{
+.pswait .table .td1 p{
 	width:349px;
 	overflow: hidden;
   	word-break:break-all;
   	text-overflow:ellipsis;
   	white-space:nowrap;
 }
-.pswait table .td2{
+.pswait .table .td2{
 	width:269px;
 }
-.pswait table .td3{
+.pswait .table .td3{
 	width:155px;
 }
-.pswait table .td4{
+.pswait .table .td4{
 	width:89px;
 }
-.pswait table .td4 a{
+.pswait .table .td4 a{
 	display: block;
 }
 .pagenumber{
@@ -489,32 +488,32 @@ img{border:0;}
 	color: #fff;
 	text-indent: 10px;
 }
-.send  table thead tr td{
+.send  .table thead tr td{
 	background:#dcf4f9;
 	font-size: 18px;
 }
-.send  table td{
+.send  .table td{
 	border:1px solid #ddd;
 	height: 40px;
 	line-height: 25px;
 }
-.send  table .td1{
+.send  .table .td1{
 	width:53px;
 }
-.send  table .td1 .input2{
+.send  .table .td1 .input2{
 	width: 15px;
 	height:15px;
 	margin:0;
 	padding:0;
 	vertical-align: sub;
 }
-.send  table .td2{
+.send  .table .td2{
 	width:138px;
 }
-.send  table .td3{
+.send  .table .td3{
 	width:612px;
 }
-.send  table .td3 p{
+.send  .table .td3 p{
 	width:595px;
 	padding:0 15px;
 	text-align: left;
@@ -523,14 +522,14 @@ img{border:0;}
   	text-overflow:ellipsis;
   	white-space:nowrap;
 }
-.send  table .td4{
+.send  .table .td4{
 	width:90px;   
 }
-.send  table .td4 a{
+.send  .table .td4 a{
 	display: block;
 	color: #188c44;
 }
-.send  table .td4 a:hover{
+.send  .table .td4 a:hover{
 	color: #f87e59;
 }
 .send .block3{
@@ -562,7 +561,7 @@ img{border:0;}
 }
 .send .block3 .s1{
 	display:inline-block;
-	width: 390px;
+	width: 400px;
 	line-height:40px;
 	text-indent: 30px;
 	font-size: 14px;
@@ -591,10 +590,9 @@ img{border:0;}
 .login_c .form{
 	height:75px;
 	position: relative;
+	width: 430px;
 }
 .login_c .form p{
-	margin-left:60px;
-	_margin-left:10px;
 	color:#333;
 	height:40px;
 	line-height: 40px;
@@ -606,13 +604,11 @@ img{border:0;}
 	text-align: right;
 }
 .login_c .form .p1{
-	text-indent: 30px;
-	width:100px;
+	text-indent: 25px;
 	line-height:20px;
 	height:20px;
 	position: absolute;
-	left:72px;
-	_left:122px;
+	left:125px;
 }
 .login_c .form p .form_control{
 	margin-left:10px;

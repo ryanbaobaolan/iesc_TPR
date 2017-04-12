@@ -31,4 +31,3 @@
           $(this).val('');  
         } 
     });
-    $('.login_c .form input').eq(1).css('margin-left','16px')
